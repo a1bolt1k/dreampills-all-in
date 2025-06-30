@@ -677,3 +677,7 @@ display: flex;
 .promo__container  {
 margin: auto;
 }
+
+.list-comments__item {
+  margin-top: 10px;
+}
