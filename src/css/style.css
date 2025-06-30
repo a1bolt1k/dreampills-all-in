@@ -238,3 +238,83 @@ input[type="radio"].visually-hidden {
 .project__link:hover {
   opacity: 0.5;
 }
+
+.footer {
+  padding: 64px 0;
+
+  background-color: #151515;
+}
+
+.socials-network {
+  display: flex;
+  gap: 24px;
+}
+
+.socials-network__item {
+  display: flex;
+  width: 58px;
+  height: 58px;
+  border-radius: 100px;
+  border: 1px solid #FFF;
+  background: rgba(255, 255, 255, 0.00);
+}
+
+.socials-network__item-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+/* not-found */
+
+.page-not-found {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  height: 100vh;
+  padding: 4% 0;
+
+  background: linear-gradient(180deg, #FCB462 0%, #C58AC1 100%);
+}
+
+.page-not-found__symbols-404 {
+  color: #FFF;
+  text-align: center;
+  font-family: Comfortaa;
+  font-size: 450px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 90%; /* 540px */
+}
+
+.page-not-found__text {
+  width: 621px;
+  height: 140px;
+  margin: 0 auto;
+
+  color: #FFF;
+  text-align: center;
+  font-family: Comfortaa;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 70px */
+  color: white;
+}
+
+.page-not-found__link-to-main-page {
+  display: flex;
+  margin: 0 auto;
+  width: 300px;
+  padding: 16px 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #000;
+  color: white;
+}
+
+/* project-architecture-dreampills.html */
+
