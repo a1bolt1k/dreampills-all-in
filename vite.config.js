@@ -9,7 +9,8 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         dreampills: resolve(__dirname, 'project-dreampills.html'),
         posters: resolve(__dirname, 'project-posters-dreampills.html'),
-        architecture: resolve(__dirname, 'project-architecture-dreampills.html')
+        architecture: resolve(__dirname, 'project-architecture-dreampills.html'),
+        error: resolve(__dirname, 'error.html')
       }
     },
     outDir: 'dist', // Или 'docs' для GitHub Pages
